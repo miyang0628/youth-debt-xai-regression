@@ -75,7 +75,7 @@ youth-debt-xai-regression/
 │
 ├── regression_results_summary.md  # Full results summary with paper notes
 ├── requirements.txt
-├── requirements_alibi_cf.txt      # Separate environment for DiCE
+├── requirements_dice_cf.txt       # Separate environment for DiCE
 └── README.md
 ```
 
@@ -113,9 +113,11 @@ pip install scipy joblib Pillow
 
 ### DiCE environment (notebooks 05, 05b, 05c, 07 Part C, 10 Part B, 11 Part C)
 
+DiCE has package conflicts with the main environment and requires a separate conda environment.
+
 ```bash
-conda create -n alibi_cf python=3.10 -y
-conda activate alibi_cf
+conda create -n dice_cf python=3.10 -y
+conda activate dice_cf
 
 pip install numpy==1.26.4
 pip install pandas scikit-learn matplotlib seaborn
@@ -127,7 +129,7 @@ pip install click scipy joblib Pillow
 
 # Register Jupyter kernel
 pip install ipykernel
-python -m ipykernel install --user --name alibi_cf --display-name "Python (alibi_cf)"
+python -m ipykernel install --user --name dice_cf --display-name "Python (dice_cf)"
 ```
 
 ### requirements.txt
@@ -146,7 +148,7 @@ seaborn>=0.12
 Pillow>=9.0
 ```
 
-### requirements_alibi_cf.txt
+### requirements_dice_cf.txt
 
 ```
 numpy==1.26.4
@@ -176,17 +178,17 @@ All notebooks should be run in sequence. Notebooks 05, 05b, 05c, 07 (Part C only
 | 02 | eda_regression | youth-debt | Exploratory data analysis |
 | 03 | model_regression | youth-debt | LightGBM + XGBoost ensemble training |
 | 04 | shap_analysis_regression | youth-debt | SHAP feature attribution |
-| 05 | dice_counterfactual_regression | alibi_cf | DiCE CF1 generation |
-| 05b | dice_diversity_regression | alibi_cf | DiCE CF1/CF2/CF3 diversity analysis |
-| 05c | case_comparison_regression | alibi_cf | Case-level CF comparison tables |
+| 05 | dice_counterfactual_regression | dice_cf | DiCE CF1 generation |
+| 05b | dice_diversity_regression | dice_cf | DiCE CF1/CF2/CF3 diversity analysis |
+| 05c | case_comparison_regression | dice_cf | Case-level CF comparison tables |
 | 06 | policy_simulation_regression | youth-debt | Policy simulation and heterogeneity |
-| 07 | sensitivity_analysis_regression | alibi_cf* | Seed robustness, SHAP stability, CF range |
+| 07 | sensitivity_analysis_regression | dice_cf* | Seed robustness, SHAP stability, CF range |
 | 08 | bootstrap_ci_regression | youth-debt | Bootstrap 95% CI for all estimates |
 | 09 | heterogeneity_extended_regression | youth-debt | Full policy × subgroup heterogeneity |
-| 10 | shap_nonlinear_cf_actionability | alibi_cf* | SHAP non-linearity + CF actionability |
-| 11 | dsr_percentile_robustness_regression | alibi_cf* | Percentile-based robustness check |
+| 10 | shap_nonlinear_cf_actionability | dice_cf* | SHAP non-linearity + CF actionability |
+| 11 | dsr_percentile_robustness_regression | dice_cf* | Percentile-based robustness check |
 
-\* Only the DiCE-related cells in notebooks 07, 10, and 11 require the `alibi_cf` kernel. All other cells can be run in the `youth-debt` kernel.
+\* Only the DiCE-related cells in notebooks 07, 10, and 11 require the `dice_cf` kernel. All other cells can be run in the `youth-debt` kernel.
 
 ---
 
