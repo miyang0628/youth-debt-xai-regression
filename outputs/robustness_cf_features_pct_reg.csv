@@ -1,0 +1,4 @@
+﻿Percentile group,N cases used,Top 5 features
+Top 10%,10,"h19_pers_income2, employment_status, housing_tenure, age, housing_debt_balance"
+Top 20%,10,"h19_pers_income2, h19_pers_income1, employment_status, debt_financial, age"
+Top 30%,10,"housing_tenure, h19_pers_income2, employment_status, housing_debt_balance, h19_pers_income4"

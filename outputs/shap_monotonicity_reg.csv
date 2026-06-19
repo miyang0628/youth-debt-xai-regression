@@ -1,0 +1,22 @@
+﻿Feature,Spearman rho,p-value,Pattern
+housing_tenure,-0.775,0.0,Monotonic
+h19_pers_income2,-0.588,0.0,Monotonic
+h19_din,-0.451,0.0,Non-monotonic
+debt_lease,-0.403,0.0,Non-monotonic
+h19_pers_income1,-0.326,0.0,Non-monotonic
+debt_other,-0.145,0.0045,Non-monotonic
+age,-0.119,0.0192,Non-monotonic
+total_debt,-0.033,0.5166,Non-monotonic
+h19_pers_income4,0.085,0.0979,Non-monotonic
+region,0.144,0.0047,Non-monotonic
+debt_card,0.157,0.002,Non-monotonic
+debt_private,0.215,0.0,Non-monotonic
+employment_type,0.282,0.0,Non-monotonic
+h19_cin,0.527,0.0,Monotonic
+employment_status,0.702,0.0,Monotonic
+housing_debt_balance,0.74,0.0,Monotonic
+marital_status,0.744,0.0,Monotonic
+education,0.767,0.0,Monotonic
+sex,0.861,0.0,Monotonic
+debt_financial,0.916,0.0,Monotonic
+debt_credit,,,Monotonic

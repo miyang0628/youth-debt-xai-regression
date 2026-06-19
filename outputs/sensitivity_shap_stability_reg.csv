@@ -1,0 +1,9 @@
+﻿feature,appearances,stability
+debt_financial,5,Stable
+h19_pers_income2,5,Stable
+housing_debt_balance,4,Stable
+h19_cin,4,Stable
+employment_status,3,Moderate
+h19_din,2,Moderate
+housing_tenure,1,Unstable
+total_debt,1,Unstable

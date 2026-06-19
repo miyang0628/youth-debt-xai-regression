@@ -1,0 +1,10 @@
+﻿Percentile group,N (group),Subgroup,N (subgroup),Mean DSR reduction,CI lower (95%),CI upper (95%),Significant
+Top 10%,39,Employed,5,0.0521,-0.0172,0.1135,No
+Top 10%,39,Unemployed,5,0.4118,0.2754,0.5203,Yes
+Top 10%,39,Inactive,2,1.2386,,,N/A
+Top 20%,77,Employed,26,0.1413,0.1052,0.1804,Yes
+Top 20%,77,Unemployed,12,0.2744,0.1552,0.3821,Yes
+Top 20%,77,Inactive,3,0.9104,,,N/A
+Top 30%,115,Employed,44,0.1012,0.073,0.1297,Yes
+Top 30%,115,Unemployed,23,0.1894,0.106,0.2659,Yes
+Top 30%,115,Inactive,4,0.7318,,,N/A

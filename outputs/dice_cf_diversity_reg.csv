@@ -1,0 +1,31 @@
+﻿case_id,dsr_actual,dsr_pred_orig,cf_id,dsr_pred_cf,delta_dsr,n_changes,changed_features
+1,0.6667,0.549,1,0.0745,-0.4745,2,"debt_financial, age"
+1,0.6667,0.549,2,0.1459,-0.4031,2,"h19_pers_income1, h19_pers_income4"
+1,0.6667,0.549,3,0.0629,-0.4861,2,"debt_financial, debt_private"
+3,0.4125,1.5193,1,0.1831,-1.3362,2,"sex, h19_pers_income2"
+3,0.4125,1.5193,2,0.1831,-1.3362,1,h19_pers_income2
+3,0.4125,1.5193,3,0.1013,-1.418,2,"h19_pers_income2, debt_other"
+12,0.5801,0.2946,1,0.1998,-0.0948,1,h19_pers_income2
+12,0.5801,0.2946,2,0.1477,-0.1469,2,"employment_type, housing_tenure"
+12,0.5801,0.2946,3,0.163,-0.1316,1,h19_pers_income1
+16,0.7675,0.142,1,0.0568,-0.0852,2,"h19_pers_income1, debt_other"
+16,0.7675,0.142,2,0.101,-0.041,1,debt_other
+16,0.7675,0.142,3,0.1384,-0.0036,1,total_debt
+24,0.6891,3.2989,1,0.1564,-3.1425,4,"employment_status, h19_pers_income2, h19_cin, debt_financial"
+24,0.6891,3.2989,2,0.112,-3.1869,4,"education, employment_status, h19_pers_income2, housing_tenure"
+24,0.6891,3.2989,3,0.1097,-3.1892,5,"employment_status, h19_pers_income2, h19_pers_income4, h19_cin, age"
+28,0.7166,0.1161,1,0.1149,-0.0012,1,total_debt
+28,0.7166,0.1161,2,0.1868,0.0707,2,"h19_pers_income4, total_debt"
+28,0.7166,0.1161,3,0.1143,-0.0018,1,housing_tenure
+31,5.0,2.315,1,0.136,-2.179,7,"education, h19_pers_income2, h19_cin, h19_din, debt_card, debt_lease, housing_tenure"
+31,5.0,2.315,2,0.0976,-2.2174,9,"sex, marital_status, employment_status, employment_type, h19_pers_income2, h19_din, debt_financial, debt_lease, housing_debt_balance"
+31,5.0,2.315,3,0.1896,-2.1254,8,"education, h19_pers_income2, h19_cin, h19_din, debt_financial, debt_card, debt_lease, housing_tenure"
+35,5.0,2.1011,1,0.0484,-2.0527,4,"region, employment_type, h19_pers_income2, debt_lease"
+35,5.0,2.1011,2,0.1457,-1.9554,5,"region, h19_pers_income2, debt_lease, debt_credit, housing_debt_balance"
+35,5.0,2.1011,3,0.1527,-1.9484,5,"region, employment_type, h19_pers_income2, debt_private, debt_lease"
+42,3.0,2.2636,1,0.1473,-2.1163,9,"education, employment_status, employment_type, h19_pers_income2, h19_din, debt_financial, debt_card, debt_lease, housing_debt_balance"
+42,3.0,2.2636,2,0.1449,-2.1187,10,"sex, employment_status, employment_type, h19_pers_income1, h19_pers_income2, debt_card, debt_lease, debt_credit, debt_other, housing_debt_balance"
+42,3.0,2.2636,3,0.1007,-2.1629,10,"sex, marital_status, employment_status, h19_pers_income1, h19_pers_income2, h19_din, debt_financial, debt_private, age, total_debt"
+45,2.6219,2.3694,1,0.0803,-2.2891,4,"employment_status, h19_pers_income2, debt_private, age"
+45,2.6219,2.3694,2,0.1486,-2.2208,4,"employment_status, h19_pers_income2, debt_other, housing_debt_balance"
+45,2.6219,2.3694,3,0.0803,-2.2891,3,"employment_status, h19_pers_income2, age"

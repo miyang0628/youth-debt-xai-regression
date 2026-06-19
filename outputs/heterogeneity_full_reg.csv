@@ -1,0 +1,22 @@
+﻿Policy,Subgroup,N,Mean DSR reduction,CI lower (95%),CI upper (95%),Significant
+A-20 (Debt -20%),Employed,15,0.0127,-0.02,0.0483,No
+A-20 (Debt -20%),Unemployed,13,0.0313,0.0048,0.0629,Yes
+A-20 (Debt -20%),Inactive,2,0.1116,,,N/A
+A-40 (Debt -40%),Employed,15,0.0719,0.0294,0.1254,Yes
+A-40 (Debt -40%),Unemployed,13,0.0663,0.0275,0.1126,Yes
+A-40 (Debt -40%),Inactive,2,0.226,,,N/A
+A-60 (Debt -60%),Employed,15,0.0805,0.0392,0.1347,Yes
+A-60 (Debt -60%),Unemployed,13,0.0925,0.0399,0.1502,Yes
+A-60 (Debt -60%),Inactive,2,0.2417,,,N/A
+B-20 (Income +20%),Employed,15,-0.024,-0.0355,-0.0117,No
+B-20 (Income +20%),Unemployed,13,0.0574,-0.0582,0.1664,No
+B-20 (Income +20%),Inactive,2,0.6741,,,N/A
+B-40 (Income +40%),Employed,15,-0.0657,-0.0835,-0.0499,No
+B-40 (Income +40%),Unemployed,13,0.0982,0.0247,0.1821,Yes
+B-40 (Income +40%),Inactive,2,1.1632,,,N/A
+B-60 (Income +60%),Employed,15,0.03,0.0123,0.0467,Yes
+B-60 (Income +60%),Unemployed,13,0.0969,0.0122,0.1937,Yes
+B-60 (Income +60%),Inactive,2,1.2921,,,N/A
+C (A-40+B-40),Employed,15,0.0114,-0.0373,0.0687,No
+C (A-40+B-40),Unemployed,13,0.162,0.075,0.2524,Yes
+C (A-40+B-40),Inactive,2,1.2317,,,N/A

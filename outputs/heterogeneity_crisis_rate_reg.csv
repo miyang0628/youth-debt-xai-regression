@@ -1,0 +1,22 @@
+﻿Policy,Subgroup,N,Baseline crisis rate,Post-policy rate,Rate reduction
+A-20 (Debt -20%),Employed,15,0.5333,0.5333,0.0
+A-20 (Debt -20%),Unemployed,13,0.4615,0.3846,0.0769
+A-20 (Debt -20%),Inactive,2,1.0,1.0,0.0
+A-40 (Debt -40%),Employed,15,0.5333,0.4,0.1333
+A-40 (Debt -40%),Unemployed,13,0.4615,0.3077,0.1538
+A-40 (Debt -40%),Inactive,2,1.0,1.0,0.0
+A-60 (Debt -60%),Employed,15,0.5333,0.2667,0.2667
+A-60 (Debt -60%),Unemployed,13,0.4615,0.3846,0.0769
+A-60 (Debt -60%),Inactive,2,1.0,1.0,0.0
+B-20 (Income +20%),Employed,15,0.5333,0.5333,0.0
+B-20 (Income +20%),Unemployed,13,0.4615,0.4615,0.0
+B-20 (Income +20%),Inactive,2,1.0,1.0,0.0
+B-40 (Income +40%),Employed,15,0.5333,0.5333,0.0
+B-40 (Income +40%),Unemployed,13,0.4615,0.3846,0.0769
+B-40 (Income +40%),Inactive,2,1.0,1.0,0.0
+B-60 (Income +60%),Employed,15,0.5333,0.4,0.1333
+B-60 (Income +60%),Unemployed,13,0.4615,0.4615,0.0
+B-60 (Income +60%),Inactive,2,1.0,1.0,0.0
+C (A-40+B-40),Employed,15,0.5333,0.4667,0.0667
+C (A-40+B-40),Unemployed,13,0.4615,0.0769,0.3846
+C (A-40+B-40),Inactive,2,1.0,1.0,0.0

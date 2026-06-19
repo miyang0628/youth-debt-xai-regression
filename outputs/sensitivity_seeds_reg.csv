@@ -1,0 +1,6 @@
+﻿seed,rmse,mae,r2,top3_shap
+42,0.5596,0.2515,0.5968,"debt_financial, h19_pers_income2, housing_debt_balance"
+123,0.5377,0.2502,0.5859,"h19_pers_income2, debt_financial, housing_debt_balance"
+2024,0.4624,0.205,0.4739,"debt_financial, h19_pers_income2, h19_cin"
+777,0.51,0.2469,0.5524,"h19_pers_income2, debt_financial, h19_cin"
+99,0.5536,0.2665,0.4979,"h19_pers_income2, debt_financial, h19_cin"

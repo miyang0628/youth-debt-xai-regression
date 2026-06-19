@@ -1,0 +1,11 @@
+﻿case_id,dsr_actual,dsr_pred_original,dsr_pred_cf1,delta_dsr,n_changes_cf1,changed_features
+1,0.6667,0.549,0.1621,-0.3869,2,"employment_status, h19_pers_income1"
+3,0.4125,1.5193,0.1831,-1.3362,1,h19_pers_income2
+12,0.5801,0.2946,0.072,-0.2226,2,"debt_other, housing_tenure"
+16,0.7675,0.142,0.107,-0.035,1,employment_status
+24,0.6891,3.2989,0.1818,-3.1171,3,"employment_status, h19_pers_income2, age"
+28,0.7166,0.1161,0.0697,-0.0464,2,"debt_card, age"
+31,5.0,2.315,0.0203,-2.2947,7,"education, h19_pers_income1, h19_pers_income2, h19_pers_income4, h19_cin, h19_din, debt_financial"
+35,5.0,2.1011,0.0529,-2.0482,4,"h19_pers_income2, debt_lease, housing_debt_balance, age"
+42,3.0,2.2636,0.1601,-2.1035,6,"sex, employment_status, h19_pers_income1, h19_pers_income2, debt_lease, housing_debt_balance"
+45,2.6219,2.3694,0.1843,-2.1851,4,"employment_status, h19_pers_income1, h19_pers_income2, total_debt"

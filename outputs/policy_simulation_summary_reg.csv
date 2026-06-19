@@ -1,0 +1,8 @@
+﻿Policy,Mean pred DSR,DSR reduction,Crisis proxy rate,Rate reduction,Cases rescued
+Policy A-20 (Debt -20%),1.2125,0.0781,68.3%,3.3%,2
+Policy A-40 (Debt -40%),1.1156,0.1749,63.3%,8.3%,5
+Policy A-60 (Debt -60%),1.0027,0.2879,60.0%,11.7%,7
+Policy B-20 (Income +20%),0.9404,0.3502,68.3%,3.3%,2
+Policy B-40 (Income +40%),0.778,0.5126,65.0%,6.7%,4
+Policy B-60 (Income +60%),0.6524,0.6381,61.7%,10.0%,6
+Policy C (A-40+B-40),0.6575,0.6331,51.7%,20.0%,12

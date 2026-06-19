@@ -1,0 +1,4 @@
+﻿Metric,Point estimate,CI lower (95%),CI upper (95%)
+RMSE,0.5596,0.4253,0.6886
+MAE,0.2515,0.2025,0.3038
+R2,0.5968,0.3851,0.7397
