@@ -1,4 +1,4 @@
-# Youth Debt Crisis DSR Prediction: An XAI-Driven Regression Framework
+# Who Benefits from What? A Machine Learning Framework for Heterogeneous Policy Prescription in Youth Debt Management Using Korean Welfare Panel Data
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![LightGBM](https://img.shields.io/badge/LightGBM-4.3.0-green.svg)](https://lightgbm.readthedocs.io/)
@@ -13,9 +13,9 @@
 
 This repository contains the replication code for the paper:
 
-> **Anonymous (under review). "An XAI-Driven Early Warning and Policy Prescription Framework for Youth Debt Crisis: A Regression Approach Using Korean Welfare Panel Data." *Anonymous Journal*.**
+> **Yang, M. (under review). "Who Benefits from What? A Machine Learning Framework for Heterogeneous Policy Prescription in Youth Debt Management Using Korean Welfare Panel Data." *Data & Policy*.**
 
-This paper extends a prior binary classification framework (DSR ≥ 40% as crisis indicator) to a **continuous regression framework** in which the debt service ratio (DSR) is modelled directly as a continuous outcome. Using the 19th wave (2024) of the Korea Welfare Panel Study (KOWEPS, n = 1,916 youth aged 19–39), we train a LightGBM–XGBoost ensemble regressor, apply SHAP-based feature attribution, generate DiCE counterfactual explanations under a desired DSR range, and simulate the heterogeneous effects of debt relief and income support policies across employment status subgroups.
+This paper develops a **continuous regression framework** in which the debt service ratio (DSR) is modelled directly as a continuous outcome, rather than as a binary crisis indicator. Using the 19th wave (2024) of the Korea Welfare Panel Study (KOWEPS, n = 1,916 youth aged 19–39), we train a LightGBM–XGBoost ensemble regressor, apply SHAP-based feature attribution, generate DiCE counterfactual explanations under a desired DSR range, and simulate the heterogeneous effects of debt relief and income support policies across employment status subgroups.
 
 ---
 
@@ -170,7 +170,7 @@ Pillow>=9.0
 
 ## Notebook Execution Order
 
-All notebooks should be run in sequence. Notebooks 05, 05b, 05c, 07 (Part C only), 10 (Part B only), and 11 (Part C only) require the `alibi_cf` kernel.
+All notebooks should be run in sequence. Notebooks 05, 05b, 05c, 07 (Part C only), 10 (Part B only), and 11 (Part C only) require the `dice_cf` kernel.
 
 | # | Notebook | Kernel | Description |
 |---|---|---|---|
@@ -237,24 +237,19 @@ Stage 3: Policy Simulation
 
 ---
 
-## Note on NiCE
-
-The original classification paper used NiCE (Brughmans et al., 2024) as a second counterfactual method for cross-method comparison. NiCE is not applicable in this regression extension because it relies on `predict_proba` and class-label-based nearest-unlike-neighbour search, which are not defined for continuous regression targets. DiCE's `desired_range` parameter provides an analogous mechanism for specifying target outcome intervals in the regression setting.
-
----
-
 ## Citation
 
 If you use this code, please cite:
 
 ```bibtex
-@article{anonymous2025youth,
-  title   = {An XAI-Driven Early Warning and Policy Prescription Framework
-             for Youth Debt Crisis: A Regression Approach Using Korean
-             Welfare Panel Data},
-  author  = {Anonymous},
-  journal = {Anonymous Journal},
-  year    = {under review}
+@article{yang2026youth,
+  title   = {Who Benefits from What? A Machine Learning Framework for
+             Heterogeneous Policy Prescription in Youth Debt Management
+             Using Korean Welfare Panel Data},
+  author  = {Yang, Munil},
+  journal = {Data \& Policy},
+  year    = {under review},
+  publisher = {Cambridge University Press}
 }
 ```
 
@@ -269,3 +264,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ## Acknowledgements
 
 This research uses data from the Korea Welfare Panel Study (KOWEPS), jointly conducted by the Korea Institute for Health and Social Affairs (KIHASA) and Seoul National University. The authors thank the data providers for making these data publicly available.
+```
