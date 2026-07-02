@@ -264,4 +264,3 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ## Acknowledgements
 
 This research uses data from the Korea Welfare Panel Study (KOWEPS), jointly conducted by the Korea Institute for Health and Social Affairs (KIHASA) and Seoul National University. The authors thank the data providers for making these data publicly available.
-```
